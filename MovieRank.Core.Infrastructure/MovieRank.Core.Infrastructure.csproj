@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="awssdk.dynamodbv2" Version="3.7.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieRank.Core.Application\MovieRank.Core.Application.csproj" />
+    <ProjectReference Include="..\MovieRank.Core.Model\MovieRank.Core.Model.csproj" />
+  </ItemGroup>
+
+</Project>
